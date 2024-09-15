@@ -11,7 +11,7 @@ const Section = () => {
           </p>
   
           <div className={style.section_btn}>
-            <button className={style.primary_btn}>Contact Me</button>
+            <button className={style.primary_btn} href='#contact'>Contact Me</button>
           </div>
   
           <div className={style.reading}>
