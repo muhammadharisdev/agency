@@ -9,7 +9,7 @@ const Footer = () => {
     { label: 'About Me', icon: FaRegArrowAltCircleRight, Link: '#about' },
     { label: 'Services', icon: FaRegArrowAltCircleRight, Link: '#service' },
     { label: 'Projects', icon: FaRegArrowAltCircleRight, Link: '#project' },
-    { label: 'Contact', icon: FaRegArrowAltCircleRight, Link: 'contact' },
+    { label: 'Contact', icon: FaRegArrowAltCircleRight, Link: '#contact' },
   ];
 
   const contactInfo = [
