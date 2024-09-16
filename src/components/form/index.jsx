@@ -3,9 +3,11 @@ import style from './style.module.css'
 function InquiryForm() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
+  const [number, setNumber] = useState('');
 
   console.log(name);
   console.log(email);
+  console.log(number);
 
 return (
 <>
@@ -22,7 +24,7 @@ return (
   </div>
   <div className={style.formRow}>
     <label htmlFor="Phone Number" >Phone Number</label>
-    <input type="Phone Number" id="Phone Number" placeholder='Phone Number' />
+    <input type="Phone Number" id="Phone Number" name="number" onChange={(e)=>setNumber(e.target.value)} placeholder='Phone Number' />
   </div>
   <div className={style.formRow}>
   <label htmlFor="option">Inquire For Field</label>

@@ -1,4 +1,5 @@
 import style from "./style.module.css";
+
 const Section = () => {
     return (
       <main className={style.container} id="home">
